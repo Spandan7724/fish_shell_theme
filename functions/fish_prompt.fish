@@ -1,4 +1,4 @@
-# Nord Theme for Oh My Fish
+# Rosé Pine Theme for Oh My Fish
 # You can override some default options with config.fish:
 #
 #  set -g theme_short_path yes
@@ -24,19 +24,19 @@ function fish_prompt
   set -l none     "◦"
 
   set -l normal_color     (set_color normal)
-  set -l success_color    (set_color 88c0d0)
-  set -l error_color      (set_color bf616a --bold)
-  set -l directory_color  (set_color 81a1c1)
-  set -l repository_color (set_color 8fbcbb --bold)
-  set -l git_dirty_color  (set_color d08770)
-  set -l git_ahead_color  (set_color a3be8c)
-  set -l git_behind_color (set_color bf616a)
-  set -l git_diverged_color (set_color b48ead)
-  set -l git_clean_color  (set_color 4c566a)
-  set -l git_stash_color  (set_color ebcb8b)
-  set -l ssh_user_color   (set_color d08770 --bold)
-  set -l ssh_separator    (set_color 4c566a)
-  set -l accent_color     (set_color 4c566a)
+  set -l success_color    (set_color 9ccfd8)
+  set -l error_color      (set_color eb6f92 --bold)
+  set -l directory_color  (set_color 31748f)
+  set -l repository_color (set_color b6e4ea --bold)
+  set -l git_dirty_color  (set_color f6c177)
+  set -l git_ahead_color  (set_color 9ccfd8)
+  set -l git_behind_color (set_color eb6f92)
+  set -l git_diverged_color (set_color ebbcba)
+  set -l git_clean_color  (set_color 6e6a86)
+  set -l git_stash_color  (set_color f6c177)
+  set -l ssh_user_color   (set_color ebbcba --bold)
+  set -l ssh_separator    (set_color 6e6a86)
+  set -l accent_color     (set_color 6e6a86)
 
   set -l prompt_string $fish
 
